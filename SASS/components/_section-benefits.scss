@@ -1,0 +1,31 @@
+.section-benefits > ul {
+    display: flex;
+  }
+  
+  .benefits-li {
+    margin-right: 30px;
+  }
+  
+  .Benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $subtitle;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .icon-box{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .benefits-icon{
+    width: 70px;
+    height: 70px;
+  }

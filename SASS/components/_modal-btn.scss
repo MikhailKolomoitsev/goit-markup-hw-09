@@ -1,0 +1,36 @@
+.company {
+  max-width: 1600px;
+  height: 600px;
+  background: #2f303a;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/new_photo.jpg);
+}
+
+.button {
+  background: $acent-color;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  margin-top: 30px;
+  border: 0ch;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+
+.tagline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 110px;
+  color: #ffffff;
+}

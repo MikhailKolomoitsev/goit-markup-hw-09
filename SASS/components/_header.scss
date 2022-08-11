@@ -1,0 +1,82 @@
+.header .conteiner {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+nav > ul {
+  display: flex;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1600px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ececec;
+}
+.navigation-list {
+  margin-right: 50px;
+  transition: color 258ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-main {
+  margin-left: auto;
+}
+
+.navigation-list:hover,
+.navigation-list:focus {
+  color: $acent-color;
+}
+
+.navigation-list,
+.address-list {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.address-list {
+  color: $text-color;
+  margin-right: 50px;
+  transition: color 258ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-list:hover,
+.address-list:focus,
+.current {
+  color: $acent-color;
+}
+.current::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: $acent-color;
+  border-radius: 2px;
+  transform: translateY(31px);
+}
+.navigation-list {
+  display: block;
+}
+.envelope-icon {
+  width: 16px;
+  height: 12px;
+  fill: $text-color;
+  margin-right: 10px;
+}
+.address-list:hover .envelope-icon,
+.address-list:focus .envelope-icon {
+  fill: $acent-color;
+}
+.smartphone-icon {
+  width: 10px;
+  height: 16px;
+  fill: $text-color;
+  margin-right: 10px;
+}
+.address-list:hover .smartphone-icon,
+.address-list:focus .smartphone-icon {
+  fill: $acent-color;
+}

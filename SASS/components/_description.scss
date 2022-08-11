@@ -1,0 +1,29 @@
+.description-page{
+    display: flex;
+  margin-top: 50px;
+  }
+  .description-page-li:not(:last-child) {
+  margin-right: 30px;
+  }
+  .description-link{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .description-icon{
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+    transition: fill 258ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .description-link:focus .description-icon,
+  .description-link:hover .description-icon {
+    fill: $acent-color;
+    }
+  .description-link:hover {
+    border: 1px solid $acent-color;
+  }
